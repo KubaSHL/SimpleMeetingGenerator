@@ -1,7 +1,7 @@
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
-
+//Made by Kuba Krzywik for the sake of job recruitment 
 public class CalendarGenerator {
 
  //this function will return ranges of free time in inserted calendar
