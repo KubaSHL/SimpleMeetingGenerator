@@ -1,5 +1,6 @@
 import java.time.LocalTime;
 import java.util.List;
+//Made by Kuba Krzywik for the sake of job recruitment 
 public class LetsMeet {
 //So the main idea of mine is to find ranges of time between meeting, and then find places where they overlap by at least expected meeting time, so we can point where the meeting can be placed
 
