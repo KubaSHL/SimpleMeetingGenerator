@@ -34,9 +34,9 @@ public class MeetingGenerator {
 
 
 
-                        if (end1.compareTo(end2) >= 0) {
-                            possibleEndH = end2;
-                        } else possibleEndH = end1;
+                    if(end1.compareTo(end2) >= 0) {
+                        possibleEndH = end2;
+                    } else possibleEndH = end1;
 
                     if(possibleEndH!=null && possibleStartH!=null ){ //if we found out that the hour we loop through is not matching statements we won't insert it into list of possibleHours
                         LocalTime diffrence = possibleEndH.minusHours(meetingTimeExpected.getHour()).minusMinutes(meetingTimeExpected.getMinute());
