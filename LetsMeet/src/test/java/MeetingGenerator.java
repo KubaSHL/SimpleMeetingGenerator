@@ -2,7 +2,7 @@ import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
+//Made by Kuba Krzywik for the sake of job recruitment 
 public class MeetingGenerator {
 
     public List compareSchedule(List<LocalTime> freeTime1, List<LocalTime> freeTime2, LocalTime meetingTimeExpected  ){
